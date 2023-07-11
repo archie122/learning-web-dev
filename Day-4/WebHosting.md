@@ -1,0 +1,1 @@
+Web Hosting : The process of taking your website and putting it on a web server that publishes it to the internet 24/7. 
