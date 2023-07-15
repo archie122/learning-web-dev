@@ -48,3 +48,19 @@ Chaining Rule :  A form of just resting all the targeting selectors in line (ver
 
 Combining Rule : Using all the rules
 # selector selectorselector {font: 0.5rem}
+
+
+How to position element in CSS?
+
+1. Static Positioning : This is the default, where the element follows the rest of the html
+
+2. Relative Positioning : This positioning moves the element relative to the default (in other words, static postion with modifications)
+
+3. Absolute Positioning : This positioning moves the element that is nearest positioned ancestor (in other words, the element is close to the another element that is been positioned)
+   1. Z-Index : Determing which element goes on top or bottom 
+# z-index : -1 behind everything 
+# z-index : 0  above everything
+
+4. Fixed Positioning : This positioning moves the element that is a spefic location from the top left corner
+
+It's important to remember that position is seperate for the margin, padding or borders
