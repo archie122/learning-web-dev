@@ -1,0 +1,2 @@
+Hello Node
+This is a message form the message.txt file.

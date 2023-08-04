@@ -1,0 +1,19 @@
+{
+  "name": "qr_generator",
+  "version": "1.0.0",
+  "description": "Understanding what npm is and how to properly use it. :)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archie.C",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "qr-image": "^3.2.0",
+    "sillyname": "^0.1.0",
+    "superheroes": "^3.0.0"
+  },
+  "devDependencies": {}
+}
