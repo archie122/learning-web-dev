@@ -22,3 +22,13 @@ What is an HTTP request?
  PUT is used to replace or update data on the server.
  DELETE is used to delete data on the server.
  PATCH is used to patch up data on the server.
+
+What are the HTTP Response Codes?
+ 200 - OK
+ 300 - Redirect
+ 400 - Bad Request
+ 404 - Client Error
+ 500 - Server Error
+
+What is Postman?
+ Postman is a web application that allows you to test your HTTP requests.
