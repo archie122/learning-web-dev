@@ -32,3 +32,43 @@ What are the HTTP Response Codes?
 
 What is Postman?
  Postman is a web application that allows you to test your HTTP requests.
+
+What is middleware?
+ It is a type of software that is used to handle requests and responses. Somethings that middleware can do involve : 
+    1. Preprocessing : Before the request is processed
+    2. Logging : After the request is processed
+    3. Authentication : Check if the request is authenticated 
+    4. Authorization : Check if the request is authorized to be sent
+    5. Error handling : Handle any errors that may occur
+
+ Example : 
+    Body Parser : This middleware parses the body of the request and makes it available to the request handler.
+    Morgan : This middleware logs the request and response.
+
+How to make custom middleware?
+ The basic process behind middleware is to create a function that takes two arguments : 
+    1. The request object
+    2. The response object
+ With the use of the .use() method, you can create a middleware function.
+
+!! IMPORTANT !!
+
+When working with Express, the first part of the get and post refer to the names in the HTML or EJS file. The second part of the get and post refer to the name of the method. Example : 
+
+```
+app.get("/", (req, res) => {
+  res.render("index.ejs", {
+    title : "Welcome to the Band Name Generator🤘",
+  });
+});
+
+app.post("/submit", (req, res) => {
+  let band_name = adj[Math.floor(Math.random() * adj.length)] + " " + noun[Math.floor(Math.random() * noun.length)];
+
+  res.render("index.ejs", {
+    title : band_name
+  });
+});
+```
+
+ The information inside the quotes are what is being passed from the HTML or EJS file to the server.
