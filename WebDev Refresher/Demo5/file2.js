@@ -8,3 +8,5 @@ class Person {
         console.log(this.name, this.age)
     }
 }
+
+export { Person }

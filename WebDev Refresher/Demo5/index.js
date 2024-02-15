@@ -1,4 +1,4 @@
-import { sayHello, Card } from "./file1";
+import { sayHello, Card, Jack } from "./file1";
 
 sayHello();
 
@@ -17,3 +17,6 @@ Card.prototype.sayHat = function () {
 card.sayHat()
 console.log(card.title);
 console.log(card.content);
+
+let jack = new Jack("Jack", 20, "Germany");
+jack.output()
